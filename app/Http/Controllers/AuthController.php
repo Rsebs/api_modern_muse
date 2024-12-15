@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Http\Requests\AuthLoginRequest;
 use App\Http\Requests\AuthSignupRequest;
 use App\Models\User;
-use App\Traits\ApiResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Submodules\PhpHelpers\Traits\ApiResponse;
 
 class AuthController extends Controller
 {
